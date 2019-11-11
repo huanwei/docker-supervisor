@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7
 
 RUN echo "nameserver 114.114.114.114" > /etc/resolv.conf
 RUN yum install -y epel-release \
