@@ -1,4 +1,6 @@
+#huanwei/supervisor-tomcat7:v1
 FROM huanwei/supervisor-jre17:v1
+MAINTAINER Huan Wei<huan@harmonycloud.cn>
 
 COPY apache-tomcat-7.0.94.tar.gz .
 RUN tar zxvf apache-tomcat-7.0.94.tar.gz \

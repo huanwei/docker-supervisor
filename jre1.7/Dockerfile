@@ -1,4 +1,6 @@
+#huanwei/supervisor-jre17:v1
 FROM huanwei/supervisor:v1
+MAINTAINER Huan Wei<huan@harmonycloud.cn>
 
 ENV JAVA_PKG=jre-7u*-linux-x64.tar.gz \
     JAVA_HOME=/usr/java/default

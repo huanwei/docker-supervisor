@@ -1,4 +1,6 @@
+#huanwei/supervisor:v1
 FROM centos:7
+MAINTAINER Huan Wei<huan@harmonycloud.cn>
 
 RUN echo "nameserver 114.114.114.114" > /etc/resolv.conf
 RUN yum install -y epel-release \
